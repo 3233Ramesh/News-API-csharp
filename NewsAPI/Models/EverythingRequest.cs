@@ -20,6 +20,7 @@ namespace NewsAPI.Models
         /// If you want to restrict the search to specific sources, add their Ids here. You can find source Ids with the /sources endpoint or on newsapi.org.
         /// </summary>
         public List<string> Sources = new List<string>();
+         public List<string> country = new List<string>();
         /// <summary>
         /// If you want to restrict the search to specific web domains, add these here. Example: nytimes.com.
         /// </summary>
